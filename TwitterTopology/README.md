@@ -1,0 +1,1 @@
+This topology contains a spout and two bolts. The spout emits Tweets. The first bolt extracts only the text from the tweet. The second bolt analyzes the tweet text sentiment using VADER sentiment analysis tool. VADER is a tool from the library NLTK. Bolt Tweet Output scoring example is ["0.159","0.0","0.841"] for negative, positive, neutral scoring.
